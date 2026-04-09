@@ -88,7 +88,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
             {/* Brand name */}
             <div className="text-center">
               <h1 className="text-5xl font-black tracking-tight text-gradient-fire mb-2">
-                PLANETONO
+                CULINARAX
               </h1>
               <p className="text-sm tracking-[0.4em] uppercase" style={{ color: 'rgba(253,243,227,0.5)' }}>
                 Food Universe Loading

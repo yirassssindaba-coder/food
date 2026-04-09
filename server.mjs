@@ -26,7 +26,7 @@ app.post('/api/contact', async (req, res) => {
   const htmlBody = `
     <div style="font-family: 'DM Sans', sans-serif; max-width: 600px; margin: 0 auto; background: #0D0500; color: #FDF3E3; padding: 32px; border-radius: 16px; border: 1px solid #C47C3040;">
       <div style="text-align: center; margin-bottom: 24px;">
-        <h1 style="color: #F9C11A; font-size: 28px; margin: 0;">🌍 Planetono</h1>
+        <h1 style="color: #F9C11A; font-size: 28px; margin: 0;">🌍 Culinarax</h1>
         <p style="color: rgba(253,243,227,0.5); font-size: 12px; margin: 4px 0 0;">World Food Universe</p>
       </div>
       <div style="background: rgba(253,243,227,0.04); border: 1px solid rgba(253,243,227,0.08); border-radius: 12px; padding: 24px; margin-bottom: 20px;">
@@ -44,16 +44,16 @@ app.post('/api/contact', async (req, res) => {
         <h3 style="color: #F47B20; font-size: 14px; margin: 0 0 12px; text-transform: uppercase; letter-spacing: 2px;">Message</h3>
         <p style="color: rgba(253,243,227,0.8); line-height: 1.7; margin: 0; font-size: 15px;">${message.replace(/\n/g, '<br>')}</p>
       </div>
-      <p style="text-align: center; color: rgba(253,243,227,0.2); font-size: 11px; margin: 24px 0 0;">Sent from Planetono Food Universe</p>
+      <p style="text-align: center; color: rgba(253,243,227,0.2); font-size: 11px; margin: 24px 0 0;">Sent from Culinarax Food Universe</p>
     </div>
   `;
 
   try {
     await transporter.sendMail({
-      from: `"Planetono Contact" <${process.env.GMAIL_USER}>`,
+      from: `"Culinarax Contact" <${process.env.GMAIL_USER}>`,
       to: process.env.GMAIL_USER,
       replyTo: email,
-      subject: `[Planetono] ${subject || `Message from ${name}`}`,
+      subject: `[Culinarax] ${subject || `Message from ${name}`}`,
       html: htmlBody,
     });
     return res.json({ success: true, message: 'Message sent successfully!' });

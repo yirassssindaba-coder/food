@@ -203,7 +203,7 @@ export default function ContactSection() {
         >
           {[
             { icon: '✉️', label: 'Email', value: 'redeemself0@gmail.com' },
-            { icon: '🌍', label: 'Universe', value: 'Planetono Food Universe' },
+            { icon: '🌍', label: 'Universe', value: 'Culinarax Food Universe' },
             { icon: '📚', label: 'Compendium', value: '80+ Foods, 13 Batches' },
           ].map(item => (
             <div key={item.label} className="flex items-center gap-3 text-sm" style={{ color: 'rgba(253,243,227,0.4)' }}>

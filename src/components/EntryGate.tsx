@@ -132,7 +132,7 @@ export default function EntryGate({ onEnter }: EntryGateProps) {
                   backgroundClip: 'text',
                 }}
               >
-                PLANETONO
+                CULINARAX
               </motion.h1>
               <motion.p
                 className="text-sm tracking-[0.5em] uppercase mt-2"

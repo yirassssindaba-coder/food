@@ -65,7 +65,7 @@ export default function Header({ soundEnabled, onToggleSound }: HeaderProps) {
             backgroundClip: 'text',
           }}
         >
-          PLANETONO
+          CULINARAX
         </a>
 
         {/* Right nav */}

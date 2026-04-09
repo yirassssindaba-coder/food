@@ -59,7 +59,7 @@ export default function Footer() {
             </span>
           </h2>
           <p className="text-base max-w-lg mx-auto mb-10" style={{ color: 'rgba(253,243,227,0.4)' }}>
-            Planetono adalah konsep yang terus tumbuh. Atlas makanan ini akan terus berkembang, satu batch satu waktu, sampai setiap sudut dunia kuliner terwakili.
+            Culinarax adalah konsep yang terus tumbuh. Atlas makanan ini akan terus berkembang, satu batch satu waktu, sampai setiap sudut dunia kuliner terwakili.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -105,7 +105,7 @@ export default function Footer() {
                   backgroundClip: 'text',
                 }}
               >
-                PLANETONO
+                CULINARAX
               </span>
               <p className="text-xs" style={{ color: 'rgba(253,243,227,0.25)' }}>
                 3D Food Universe • Concept Project
@@ -130,7 +130,7 @@ export default function Footer() {
 
             {/* Credit */}
             <p className="text-xs text-center md:text-right" style={{ color: 'rgba(253,243,227,0.2)' }}>
-              Inspired by Planetoño by tubik.<br />Built with Three.js & React.
+              Built with Three.js & React.<br />Culinarax Food Universe © 2025
             </p>
           </div>
 
